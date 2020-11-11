@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- CSS personal -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@500&display=swap"
+          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@100&display=swap"
+          rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- JavaScript -->
+    <script src="https://kit.fontawesome.com/aad2f7b219.js" crossorigin="anonymous"></script>
+
+    <title>{{title}}</title>
+</head>
+<body class="">
+    <div class="container-fluid px-0">
+        <div class="navbar navbar-light sticky-top">
+            <img src="https://www.flaticon.com/svg/static/icons/svg/2979/2979039.svg" alt="logo" class="navbar-brand logo">
+            <div class="nav nav-fill justify-content-end">
+                <a href="/coffee" class="nav-item nav-link">
+                    <button class="btn btn-dark btn-dark-cust btn-dark-cust-coffee">Coffee</button>
+                </a>
+                <a href="/sweets" class="nav-item nav-link">
+                    <button class="btn btn-dark btn-dark-cust btn-dark-cust-sweets">Sweets</button>
+                </a>
+                <a href="/lemonade" class="nav-item nav-link">
+                    <button class="btn btn-dark btn-dark-cust btn-dark-cust-lemonade">Lemonade</button>
+                </a>
+                <a href="/" class="nav-item nav-link">
+                    <button class="btn btn-dark btn-dark-cust btn-dark-cust-lemonade">Home</button>
+                </a>
+            </div>
+
+        </div>
+        <div class="container-fluid container-for-main">
+
+            {% block content %}
+            {% endblock content %}
+
+        </div>
+        <div class="navbar navbar-footer d-flex justify-content-start align-items-start">
+            <div class="footer-box">
+                <h3 class="footer">Address</h3>
+                <p class="footer">Magic street 1</p>
+                <p class="footer">123 00 Malibu</p>
+                <a href="#" class="footer">View on map</a>
+            </div>
+            <div class="footer-box">
+                <h3 class="footer">Contact</h3>
+                <p class="footer">+12 345 678 90</p>
+                <a class="footer" href="mailto:corner.coffee@coffee.com">corner.coffee@coffee.com</a>
+            </div>
+            <div class="footer-box">
+                <h3 class="footer">Opening hours</h3>
+                <p class="footer">Mon-Fri: 6:30am - 9:00pm</p>
+                <p class="footer">Sat-Sun: 9:00am - 6:00pm</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

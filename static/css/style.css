@@ -1,0 +1,209 @@
+
+.outline {
+    outline: 2px solid red;
+}
+
+/*====Global layout====*/
+
+body {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    width: 100%;
+    padding: 0;
+}
+
+.container-fluid {
+    padding: 0px;
+    min-height: 600px;
+}
+
+
+p {
+    color: white;
+    font-weight: 50;
+    font-size: 80px;
+}
+
+.coffee-list {
+    font-size: 30px;
+}
+
+.footer {
+    font-size: 16px;
+    padding: 0px;
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    text-decoration: none;
+    margin: 0px;
+    color: #a6a6a6;
+}
+
+a.footer {
+    font-family: 'Big Shoulders Stencil Text', cursive;
+    font-weight: 100;
+    padding: 0px;
+    margin: 0px;
+    color: #a6a6a6;
+}
+
+.footer-box {
+    width: 250px;
+}
+
+.container-for-main {
+    overflow: hidden;
+}
+
+/*====Top navbar====*/
+
+.logo {
+    height: 50px;
+}
+
+.navbar {
+    background-color: #00B29E;
+}
+
+.navbar-sweets {
+    background-color: #D9415D;
+}
+
+.navbar-footer {
+    background-color: #414141;
+}
+
+/*====Content and content cards====*/
+
+.brand-name {
+    width: 400px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.4);
+    margin-top: -930px;
+    border-top: 4px solid #FF8630;
+    border-bottom: 4px solid #FF8630;
+}
+
+.brand-name h1 {
+    color: black;
+    font-size: 70px;
+}
+
+#quote {
+    margin-top: -800px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 550px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+
+}
+
+.container-all-coffee {
+/*
+    background: rgba(0, 0, 0, 0.5);
+*/
+    width: 550px;
+    background: red;
+    z-index: 100;
+}
+
+#coffee-headder {
+    margin-top: -900px;
+    height: 100px;
+    padding-top: 15px;
+    margin-bottom: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 550px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+
+}
+
+.button-container {
+    width: 580px;
+    padding: 0px;
+}
+
+.coffee-container {
+    width: 550px;
+}
+
+/*====Bottom navigation====*/
+
+
+/*====Elements====*/
+
+/*Buttons*/
+
+.btn-dark-cust {
+    border-radius: 0px;
+    width: 120px;
+    background: black;
+    border: 2px solid transparent;
+
+}
+
+.btn-dark-cust:hover {
+    border-radius: 0px;
+    background: #00B29E;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    color: black;
+}
+
+
+.btn-dark-cust-main {
+    width: 160px;
+    height: 50px;
+    border-radius: 0px;
+    background: black;
+    border: 2px solid transparent;
+}
+
+.btn-dark-cust-main-coffee:hover {
+    margin: 0px;
+    border-radius: 0px;
+    width: 160px;
+    background: #00B29E;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    color: black;
+}
+
+.btn-dark-cust-main-sweets:hover {
+    margin: 0px;
+    border-radius: 0px;
+    width: 160px;
+    background: #D9415D;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    color: black;
+}
+
+.btn-dark-cust-main-lemonade:hover {
+    margin: 0px;
+    border-radius: 0px;
+    width: 160px;
+    background: #F2CB05;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    border-right: 2px solid transparent;
+    border-left: 2px solid transparent;
+    color: black;
+}
+
+/*Images*/
+
+#main-image {
+    height: auto;
+    width: 100%;
+    object-fit: contain;
+}
+
+/*Icons*/
+
+
+/*Carousel*/
